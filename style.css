@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap');
+
+
+
+/* Renitialisation  */
+
+body, p, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+
+nav a {
+    margin-right: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-top: 37px;
+
+    text-decoration: none;
+    color: black;
+
+}
+
+nav {
+    padding: 37px;
+    margin-left: 142px;
+}
+
+.socials .img-fb {
+    margin-right: 30px;
+}
+
+.socials {
+    margin-left: 430px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+
+}
+
+.post {
+    display: flex;
+    gap: 26px;
+    margin-top:50px;
+}
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+.post :hover{
+    text-decoration: underline;
+}
+.date-and-cretor {
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 8px;
+
+}
+
+.title {
+    font-family: 'Cardo';
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.desc {
+    font-size: 16px;
+    text-align: justify;
+
+}
+
+.contenaire{
+    padding-left:80px;;
+    padding-right: 150px;
+    
+}
+
+
+.sidebar{
+    background-color: #FBFBFB;
+    padding-left:40px;
+    padding-right:100px;
+
+}
+
+hr{
+    margin-top: 49px;
+    margin-bottom: 49px;
+}
+
+.cat a {
+    text-decoration: none;
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.title-cat{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 43px;
+    margin-bottom: 37px;
+}
+
+.cat p {
+    margin-bottom: 20px;
+}
+
+
+section{
+    display: flex;
+}
